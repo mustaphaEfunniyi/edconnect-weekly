@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Project Explorer</title>
+</head>
+<body>
+<!-- Nav Bar -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand" href="index.html">Project Explorer</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" name="searchForm" placeholder="Search Projects" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="createproject.html">Submit</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="register.html">Sign Up</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+            </li>
+        </ul>
+    </div>
+    
+</nav>
+<!-- End of Nav-Bar -->
+
+
+<!-- Profile Summary container -->
+<div class="container">
+    <h2 class="my-4">Project 1</h2>
+    <div class="row bg-light">
+        <div class="col-md-3 my-2">
+            <div class="">Created By</div>
+            <div class="">Rito Jack</div>
+        </div>
+        <div class="col-md-3 my-2">
+            <div class="">Date Created</div>
+            <div class="">2020-08-30</div>
+        </div>
+        <div class="col-md-3 my-2">
+            <div class="">Last Updated</div>
+            <div class="">2020-08-30</div>
+        </div>
+        <div class="col-md-3 my-2  d-flex justify-content-end">
+            <a href="editproject.html"><button type="submit" class="btn btn-primary">Edit Project</button></a>
+        </div>
+    </div>
+
+    <div class="row my-4">
+        <div class="col-lg-6 my-2">
+            <h5>Project Abstract</h5>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias perferendis adipisci harum ab illum eum, eius consequatur sequi dicta beatae totam ipsam corrupti vel deleniti quam, vero cum porro similique est dolor. Quas voluptatum culpa consequuntur veniam dignissimos adipisci! Aut ipsa quaerat adipisci sit magnam veritatis doloremque omnis, non incidunt corporis nihil eum saepe deserunt dolor inventore rem. Suscipit voluptate voluptas earum ab quis quidem aliquam facere cupiditate dolores, delectus itaque odio optio nostrum assumenda explicabo alias ea esse officia laudantium. Non dolorum tempora eligendi culpa sunt maxime cumque nisi fugiat quidem ipsam, laboriosam, id a corporis sequi, odit iusto assumenda! Obcaecati, quaerat earum doloremque pariatur nesciunt cumque dicta itaque consequatur in corporis perspiciatis velit, deleniti quae autem ab tenetur. Inventore, odio voluptate magni vero earum exercitationem ullam molestiae ratione ea, deserunt reprehenderit ipsum fugiat nobis iusto, nostrum deleniti eaque aut dignissimos? Eum rem praesentium, architecto esse odit ipsa sequi.</p>
+            <form class="" name="">
+                <div class="form-group">
+                    <label for="comment" class="form-label">Comments</label>
+                    <textarea class="form-control" name="comment" placeholder="Leave a comment" id="comment" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+              <hr>
+            <div class="text-center text-muted mb-3">No comments added yet</div>
+        </div>
+        <div class="col-lg-6 my-1">
+            <h5>Project Details</h5>
+            <hr>
+            <div class="card mt-3">
+                <div class="card-header">
+                  <h6>Author(s)</h6>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Rito Jack</p>
+                </div>
+                <div class="card-footer text-primary">
+                    #web
+                </div>
+            </div>
+            <div class="card mt-3">
+                <div class="card-header">
+                  <h6>Project files</h6>
+                </div>
+                <div class="card-body">
+                  <p class="card-text text-center text-muted">No file uploaded yet</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer class="footer bg-light mt-5">
+        <div class="container">
+            <div class="row d-flex justify-content-end">
+                <div class="mt-4 ">
+                    <p class="text-muted ">Project Explorer &#169; 2020 - <span class="text-dark">Edconnect</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>  
+</body>
+</html>
